@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>'衛'來無限</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="opening-sequence">
+        <div class="fade-in-text">
+            <h1>衛來無限</h1>
+            <p>透過衛教遊戲傳遞愛心與關懷</p>
+        </div>
+    </div>
+
+    <header>
+        <h1>'衛'來無限</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">關於遊戲</a></li>
+                <li><a href="#download">立即遊玩</a></li>
+                <li><a href="#models">模型展示</a></li>
+                <li><a href="#contact">聯繫我們</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="about">
+            <h2>關於遊戲</h2>
+            
+            <div class="about-images">
+                <img src="https://i.imgur.com/gxPwznd.gif" alt="太空探險" class="resize-image">
+                <h3> 我們的計劃主旨是向大眾科普正確的人類乳突病毒醫療知識，透過遊戲拉近民眾與醫療資訊的距離，
+                    能在輕鬆的氛圍玩遊戲時，又能促進健康知識的科普。</h3>
+                <img src="https://i.imgur.com/RSg8WpY.png" alt="" class="resize-image">
+            </div>
+        </section>
+        <section id="download">
+            <h2>立即遊玩</h2>
+            <a href="https://hcshyu.github.io/my/" class="download-btn">遊戲網址</a>
+        </section>
+        <section id="models">
+            <h2>模型展示</h2>
+            <div class="model">
+                <img src="https://i.imgur.com/HimH0L3.png" alt="模型1" class="resize-image">
+                <p>這是遊戲中的主角模型，具有高度的可操作性和詳細的設計。</p>
+            </div>
+            <div class="model">
+                <img src="https://i.imgur.com/LRCCMyG.gif" alt="模型2" class="resize-image">
+                <img src="https://i.imgur.com/J0tEUD9.gif" alt="模型3" class="resize-image">
+                <p>這是遊戲中的主角，設計精美，細節豐富。</p>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>聯繫我們</h2>
+            <p>如果你有任何問題或反饋，請隨時聯繫我們。</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">姓名:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">電子郵件:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">訊息:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">提交</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 衛來無限. 保留所有權利.</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
